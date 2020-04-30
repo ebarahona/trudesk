@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:ms:20170412':
@@ -58,3 +58,46 @@ patch:
   'npm:marked:20170907':
     - marked:
         patched: '2017-10-31T23:21:19.994Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - email-templates > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - node-cache > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - pm2 > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - sass-loader > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - webpack > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - email-templates > @ladjs/i18n > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - grunt-apidoc > apidoc > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - mongoose > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - snyk > snyk-resolve-deps > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - webpack > watchpack > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - grunt-apidoc > apidoc > apidoc-core > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - grunt-sass > node-sass > sass-graph > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - email-templates > juice > web-resource-inliner > async > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
+    - grunt-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T23:25:52.000Z'
