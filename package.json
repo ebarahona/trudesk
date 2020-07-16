@@ -76,7 +76,7 @@
     "pm2": "2.9.3",
     "prompt": "1.0.0",
     "redis": "2.8.0",
-    "request": "2.83.0",
+    "request": "2.88.0",
     "rimraf": "2.6.2",
     "sanitize-html": "1.17.0",
     "sass-loader": "6.0.6",
@@ -92,7 +92,7 @@
     "uglify-js": "3.3.9",
     "unzip": "0.1.11",
     "util": "0.10.3",
-    "webpack": "3.10.0",
+    "webpack": "3.11.0",
     "winston": "2.4.0"
   },
   "devDependencies": {
