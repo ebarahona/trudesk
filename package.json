@@ -62,7 +62,7 @@
     "mongoose": "5.0.2",
     "morgan": "1.9.0",
     "nconf": "0.10.0",
-    "netmask": "1.0.6",
+    "netmask": "2.0.1",
     "node-cache": "4.1.1",
     "node-sass": "4.7.2",
     "nodemailer": "4.4.2",
