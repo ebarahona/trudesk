@@ -30,7 +30,7 @@
     "connect-mongo": "2.0.1",
     "cookie": "0.3.1",
     "cookie-parser": "1.4.3",
-    "css-loader": "0.28.9",
+    "css-loader": "1.0.0",
     "csv": "2.0.0",
     "dive": "0.5.0",
     "email-templates": "3.3.3",
