@@ -372,6 +372,11 @@ async@2.6.0, async@^2.1.2, async@^2.1.5, async@^2.4.1, async@^2.5:
   dependencies:
     lodash "^4.14.0"
 
+async@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
+
 async@~0.9.0:
   version "0.9.2"
   resolved "https://registry.yarnpkg.com/async/-/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
@@ -5582,14 +5587,6 @@ pkginfo@0.2.x:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.2.3.tgz#7239c42a5ef6c30b8f328439d9b9ff71042490f8"
 
-pkginfo@0.3.x:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.3.1.tgz#5b29f6a81f70717142e09e765bbeab97b4f81e21"
-
-pkginfo@0.x.x:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.1.tgz#b5418ef0439de5425fc4995042dced14fb2a84ff"
-
 pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
@@ -5970,16 +5967,16 @@ progress@^2.0.0:
   dependencies:
     asap "~2.0.3"
 
-prompt@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/prompt/-/prompt-1.0.0.tgz#8e57123c396ab988897fb327fd3aedc3e735e4fe"
+prompt@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/prompt/-/prompt-1.1.0.tgz#7ae829c6d39bbc6f9b1927f9861e9ac074744167"
+  integrity sha512-ec1vUPXCplDBDUVD8uPa3XGA+OzLrO40Vxv3F1uxoiZGkZhdctlK2JotcHq5X6ExjocDOGwGdCSXloGNyU5L1Q==
   dependencies:
     colors "^1.1.2"
-    pkginfo "0.x.x"
     read "1.0.x"
     revalidator "0.1.x"
     utile "0.3.x"
-    winston "2.1.x"
+    winston "2.x"
 
 promptly@2.2.0:
   version "2.2.0"
@@ -8141,23 +8138,23 @@ window-size@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.2.0.tgz#b4315bb4214a3d7058ebeee892e13fa24d98b075"
 
-winston@2.1.x:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/winston/-/winston-2.1.1.tgz#3c9349d196207fd1bdff9d4bc43ef72510e3a12e"
+winston@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-2.4.0.tgz#808050b93d52661ed9fb6c26b3f0c826708b0aee"
   dependencies:
     async "~1.0.0"
     colors "1.0.x"
     cycle "1.0.x"
     eyes "0.1.x"
     isstream "0.1.x"
-    pkginfo "0.3.x"
     stack-trace "0.0.x"
 
-winston@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/winston/-/winston-2.4.0.tgz#808050b93d52661ed9fb6c26b3f0c826708b0aee"
+winston@2.x:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-2.4.6.tgz#da616f332928f70aac482f59b43d62228f29e478"
+  integrity sha512-J5Zu4p0tojLde8mIOyDSsmLmcP8I3Z6wtwpTDHx1+hGcdhxcJaAmG4CFtagkb+NiN1M9Ek4b42pzMWqfc9jm8w==
   dependencies:
-    async "~1.0.0"
+    async "^3.2.3"
     colors "1.0.x"
     cycle "1.0.x"
     eyes "0.1.x"
